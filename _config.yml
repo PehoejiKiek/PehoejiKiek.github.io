@@ -92,5 +92,5 @@ lunr:
 analytics:
   provider: "google-gtag"
   google:
-    tracking_id: "G-5BXPWZ1WYP"
+    tracking_id: "G-P5YJD6H2FK"
     anonymize_ip: false # default
