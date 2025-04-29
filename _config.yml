@@ -1,0 +1,96 @@
+title: 白話字記憶 ▸ PE̍H-ŌE-JĪ KÌ-EK
+email: taibunkesimi+pehoejikiek@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  白話字記憶 ▸ PE̍H-ŌE-JĪ KÌ-EK
+logo: "/assets/images/logo.jpg"
+# Build settings
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+minimal_mistakes_skin: dark
+atom_feed:
+  hide: true
+locale: "zh-TW"
+date_format: "%Y"
+
+# Outputting
+permalink: /:year-:month/:title/
+timezone: Asia/Taipei # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+# markdown render engine.
+markdown: kramdown
+kramdown:
+  typographic_symbols:
+    ndash: --
+
+author:
+  name: "白話字記憶"
+  avatar: "/assets/images/logo.jpg"
+  bio: "PE̍H-ŌE-JĪ KÌ-EK"
+  links:
+    - label: "經營單位：台文雞絲麵"
+      icon: "fas fa-fw fa-link"
+      url: "https://linktr.ee/taibunkesimi"
+
+footer:
+  links:
+    - label: "台文雞絲麵 Tâi-bûn Ke-si Mī"
+      icon: "fas fa-fw fa-link"
+      url: "https://linktr.ee/taibunkesimi"
+
+include:
+  - _pages
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      show_date: false
+      read_time: false
+      comments: false
+      share: false
+      related: true
+      author_profile: true
+      toc_sticky: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      toc_sticky: true
+
+og_image: /assets/images/logo.jpg
+
+category_archive:
+  type: liquid
+  path: /bunlui/
+tag_archive:
+  type: liquid
+  path: /chokchia/
+
+search: true
+# search_provider: google
+lunr:
+  search_within_pages: true
+  search_full_content: true
+# google:
+#   search_engine_id: f3f140697cd094777
+
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-5BXPWZ1WYP"
+    anonymize_ip: false # default

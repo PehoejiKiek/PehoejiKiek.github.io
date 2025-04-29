@@ -1,0 +1,13 @@
+main:
+  - title: "紹介"
+    url: /siaukai/
+  - title: "告白"
+    url: /kopeh/
+  - title: "讀文獻"
+    url: /bunhian/
+  - title: "年kō"
+    url: /niko/
+  - title: "文類"
+    url: /bunlui/
+  - title: "作者"
+    url: /chokchia/
